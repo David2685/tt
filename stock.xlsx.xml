@@ -1,22 +1,23 @@
 <?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
 <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:o="urn:schemas-microsoft-com:office:office"
  xmlns:x="urn:schemas-microsoft-com:office:excel"
  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
  xmlns:html="http://www.w3.org/TR/REC-html40">
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
-  <LastAuthor>d d</LastAuthor>
-  <LastSaved>2019-04-17T23:18:19Z</LastSaved>
-  <Version>14.0</Version>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <LastSaved>2019-04-18T01:53:49Z</LastSaved>
+  <Version>16.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>12680</WindowHeight>
-  <WindowWidth>25600</WindowWidth>
-  <WindowTopX>0</WindowTopX>
-  <WindowTopY>-460</WindowTopY>
+  <WindowHeight>16260</WindowHeight>
+  <WindowWidth>28240</WindowWidth>
+  <WindowTopX>560</WindowTopX>
+  <WindowTopY>460</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
   <ProtectWindows>False</ProtectWindows>
  </ExcelWorkbook>
@@ -24,25 +25,23 @@
   <Style ss:ID="Default" ss:Name="Normal">
    <Alignment ss:Vertical="Bottom"/>
    <Borders/>
-   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Swiss" ss:Size="12"
-    ss:Color="#000000"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
    <Interior/>
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s68">
-   <Font ss:FontName="宋体" x:CharSet="134" x:Family="Modern" ss:Size="12"
-    ss:Color="#000000"/>
-  </Style>
-  <Style ss:ID="s89">
+  <Style ss:ID="s62">
    <NumberFormat ss:Format="yyyy/m/d\ h:mm;@"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12" ss:Color="#000000"/>
   </Style>
  </Styles>
  <Worksheet ss:Name="Table1">
   <Table ss:ExpandedColumnCount="35" ss:ExpandedRowCount="4661" x:FullColumns="1"
    x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
    <Column ss:AutoFitWidth="0" ss:Width="157"/>
-   <Column ss:Index="7" ss:StyleID="s89" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:Index="7" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="123"/>
    <Column ss:AutoFitWidth="0" ss:Width="60" ss:Span="3"/>
    <Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="122"/>
    <Column ss:Index="19" ss:AutoFitWidth="0" ss:Width="128"/>
@@ -59,22 +58,22 @@
     <Cell><Data ss:Type="String">盘高</Data></Cell>
     <Cell><Data ss:Type="String">盘低</Data></Cell>
     <Cell><Data ss:Type="String">收盘价</Data></Cell>
-    <Cell ss:Index="13" ss:StyleID="s89"><Data ss:Type="String">日期</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s62"><Data ss:Type="String">日期</Data></Cell>
     <Cell><Data ss:Type="String">开盘价</Data></Cell>
     <Cell><Data ss:Type="String">盘高</Data></Cell>
     <Cell><Data ss:Type="String">盘低</Data></Cell>
     <Cell><Data ss:Type="String">收盘价</Data></Cell>
-    <Cell ss:Index="19" ss:StyleID="s89"><Data ss:Type="String">日期</Data></Cell>
+    <Cell ss:Index="19" ss:StyleID="s62"><Data ss:Type="String">日期</Data></Cell>
     <Cell><Data ss:Type="String">开盘价</Data></Cell>
     <Cell><Data ss:Type="String">盘高</Data></Cell>
     <Cell><Data ss:Type="String">盘低</Data></Cell>
     <Cell><Data ss:Type="String">收盘价</Data></Cell>
-    <Cell ss:Index="25" ss:StyleID="s89"><Data ss:Type="String">日期</Data></Cell>
+    <Cell ss:Index="25" ss:StyleID="s62"><Data ss:Type="String">日期</Data></Cell>
     <Cell><Data ss:Type="String">开盘价</Data></Cell>
     <Cell><Data ss:Type="String">盘高</Data></Cell>
     <Cell><Data ss:Type="String">盘低</Data></Cell>
     <Cell><Data ss:Type="String">收盘价</Data></Cell>
-    <Cell ss:Index="31" ss:StyleID="s89"><Data ss:Type="String">日期</Data></Cell>
+    <Cell ss:Index="31" ss:StyleID="s62"><Data ss:Type="String">日期</Data></Cell>
     <Cell><Data ss:Type="String">开盘价</Data></Cell>
     <Cell><Data ss:Type="String">盘高</Data></Cell>
     <Cell><Data ss:Type="String">盘低</Data></Cell>
@@ -92,25 +91,25 @@
     <Cell><Data ss:Type="Number">56.79</Data></Cell>
     <Cell><Data ss:Type="Number">56.79</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[6]C[-6]"><Data ss:Type="String">2017/06/28 09:35:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.8</Data></Cell>
     <Cell ss:Formula="=MAX(RC[-6]:R[6]C[-6])"><Data ss:Type="Number">56.8</Data></Cell>
     <Cell ss:Formula="=MIN(RC[-6]:R[6]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.8</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[2]C[-6]"><Data ss:Type="String">2017/06/28 09:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MAX(RC[-6]:R[2]C[-6])"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MIN(RC[-6]:R[2]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.88</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[1]C[-6]"><Data ss:Type="String">2017/06/28 10:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.92</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MAX(RC[-6]:R[1]C[-6])"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MIN(RC[-6]:R[1]C[-6])"><Data ss:Type="Number">55.92</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.88</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.92</Data></Cell>
     <Cell ss:Index="31" ss:Formula="=R[1]C[-6]"><Data ss:Type="String">2017/06/28 10:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MAX(RC[-6]:R[1]C[-6])"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MIN(RC[-6]:R[1]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.88</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:00</Data></Cell>
@@ -124,25 +123,25 @@
     <Cell><Data ss:Type="Number">56.52</Data></Cell>
     <Cell><Data ss:Type="Number">56.71</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[10]C[-6]"><Data ss:Type="String">2017/06/28 09:40:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.67</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MAX(R[6]C[-6]:R[10]C[-6])"><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Formula="=MIN(R[6]C[-6]:R[10]C[-6])"><Data ss:Type="Number">56.67</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.88</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.67</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[4]C[-6]"><Data ss:Type="String">2017/06/28 10:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.92</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.46</Data></Cell>
     <Cell ss:Formula="=MAX(R[2]C[-6]:R[4]C[-6])"><Data ss:Type="Number">56.46</Data></Cell>
     <Cell ss:Formula="=MIN(R[2]C[-6]:R[4]C[-6])"><Data ss:Type="Number">55.92</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.46</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.92</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[2]C[-6]"><Data ss:Type="String">2017/06/28 10:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MAX(R[1]C[-6]:R[2]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MIN(R[1]C[-6]:R[2]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
     <Cell ss:Index="31" ss:Formula="=R[2]C[-6]"><Data ss:Type="String">2017/06/28 11:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MAX(R[1]C[-6]:R[2]C[-6])"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MIN(R[1]C[-6]:R[2]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.64</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:03</Data></Cell>
@@ -156,27 +155,27 @@
     <Cell><Data ss:Type="Number">56.42</Data></Cell>
     <Cell><Data ss:Type="Number">56.52</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[14]C[-6]"><Data ss:Type="String">2017/06/28 09:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.73</Data></Cell>
     <Cell ss:Formula="=MAX(R[10]C[-6]:R[14]C[-6])"><Data ss:Type="Number">56.73</Data></Cell>
     <Cell ss:Formula="=MIN(R[10]C[-6]:R[14]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.73</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[6]C[-6]"><Data ss:Type="String">2017/06/28 10:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MAX(R[4]C[-6]:R[6]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MIN(R[4]C[-6]:R[6]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[3]C[-6]"><Data ss:Type="String">2017/06/28 11:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MAX(R[2]C[-6]:R[3]C[-6])"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MIN(R[2]C[-6]:R[3]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.41</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="31" ss:Formula="=R[3]C[-6]"><Data ss:Type="String">2017/06/28 14:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:StyleID="s68" ss:Formula="=MAX(R[2]C[-6]:R[3]C[-6])"><Data
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.69</Data></Cell>
+    <Cell ss:StyleID="s63" ss:Formula="=MAX(R[2]C[-6]:R[3]C[-6])"><Data
       ss:Type="Number">56.69</Data></Cell>
-    <Cell ss:StyleID="s68" ss:Formula="=MIN(R[2]C[-6]:R[3]C[-6])"><Data
+    <Cell ss:StyleID="s63" ss:Formula="=MIN(R[2]C[-6]:R[3]C[-6])"><Data
       ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.69</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:06</Data></Cell>
@@ -190,25 +189,25 @@
     <Cell><Data ss:Type="Number">56.5</Data></Cell>
     <Cell><Data ss:Type="Number">56.55</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[18]C[-6]"><Data ss:Type="String">2017/06/28 09:50:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.19</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.46</Data></Cell>
     <Cell ss:Formula="=MAX(R[14]C[-6]:R[18]C[-6])"><Data ss:Type="Number">56.46</Data></Cell>
     <Cell ss:Formula="=MIN(R[14]C[-6]:R[18]C[-6])"><Data ss:Type="Number">56.19</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.46</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.19</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[8]C[-6]"><Data ss:Type="String">2017/06/28 10:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.15</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MAX(R[6]C[-6]:R[8]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MIN(R[6]C[-6]:R[8]C[-6])"><Data ss:Type="Number">56.15</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.15</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[4]C[-6]"><Data ss:Type="String">2017/06/28 11:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MAX(R[3]C[-6]:R[4]C[-6])"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MIN(R[3]C[-6]:R[4]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.64</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
     <Cell ss:Index="31" ss:Formula="=R[4]C[-6]"><Data ss:Type="String">2017/06/28 15:00:03</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.61</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MAX(R[3]C[-6]:R[4]C[-6])"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MIN(R[3]C[-6]:R[4]C[-6])"><Data ss:Type="Number">55.61</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.27</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.61</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:09</Data></Cell>
@@ -222,20 +221,20 @@
     <Cell><Data ss:Type="Number">56.55</Data></Cell>
     <Cell><Data ss:Type="Number">56.6</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[22]C[-6]"><Data ss:Type="String">2017/06/28 09:55:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.29</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.44</Data></Cell>
     <Cell ss:Formula="=MAX(R[18]C[-6]:R[22]C[-6])"><Data ss:Type="Number">56.44</Data></Cell>
     <Cell ss:Formula="=MIN(R[18]C[-6]:R[22]C[-6])"><Data ss:Type="Number">56.29</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.44</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[10]C[-6]"><Data ss:Type="String">2017/06/28 10:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.29</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MAX(R[8]C[-6]:R[10]C[-6])"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MIN(R[8]C[-6]:R[10]C[-6])"><Data ss:Type="Number">56.29</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.41</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[5]C[-6]"><Data ss:Type="String">2017/06/28 13:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.12</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MAX(R[4]C[-6]:R[5]C[-6])"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MIN(R[4]C[-6]:R[5]C[-6])"><Data ss:Type="Number">56.12</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.69</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.12</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:12</Data></Cell>
@@ -249,20 +248,20 @@
     <Cell><Data ss:Type="Number">56.6</Data></Cell>
     <Cell><Data ss:Type="Number">56.7</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[26]C[-6]"><Data ss:Type="String">2017/06/28 10:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.92</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MAX(R[22]C[-6]:R[26]C[-6])"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MIN(R[22]C[-6]:R[26]C[-6])"><Data ss:Type="Number">55.92</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.92</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[12]C[-6]"><Data ss:Type="String">2017/06/28 11:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MAX(R[10]C[-6]:R[12]C[-6])"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MIN(R[10]C[-6]:R[12]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[6]C[-6]"><Data ss:Type="String">2017/06/28 14:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MAX(R[5]C[-6]:R[6]C[-6])"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MIN(R[5]C[-6]:R[6]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.28</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:15</Data></Cell>
@@ -276,20 +275,20 @@
     <Cell><Data ss:Type="Number">56.7</Data></Cell>
     <Cell><Data ss:Type="Number">56.8</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[30]C[-6]"><Data ss:Type="String">2017/06/28 10:05:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MAX(R[26]C[-6]:R[30]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MIN(R[26]C[-6]:R[30]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[14]C[-6]"><Data ss:Type="String">2017/06/28 11:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MAX(R[12]C[-6]:R[14]C[-6])"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MIN(R[12]C[-6]:R[14]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[7]C[-6]"><Data ss:Type="String">2017/06/28 14:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MAX(R[6]C[-6]:R[7]C[-6])"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MIN(R[6]C[-6]:R[7]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.27</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:18</Data></Cell>
@@ -303,20 +302,20 @@
     <Cell><Data ss:Type="Number">56.76</Data></Cell>
     <Cell><Data ss:Type="Number">56.88</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[34]C[-6]"><Data ss:Type="String">2017/06/28 10:10:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.99</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MAX(R[30]C[-6]:R[34]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MIN(R[30]C[-6]:R[34]C[-6])"><Data ss:Type="Number">55.99</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.99</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[16]C[-6]"><Data ss:Type="String">2017/06/28 11:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.34</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MAX(R[14]C[-6]:R[16]C[-6])"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MIN(R[14]C[-6]:R[16]C[-6])"><Data ss:Type="Number">56.34</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.64</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.34</Data></Cell>
     <Cell ss:Index="25" ss:Formula="=R[8]C[-6]"><Data ss:Type="String">2017/06/28 15:00:03</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.61</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MAX(R[7]C[-6]:R[8]C[-6])"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MIN(R[7]C[-6]:R[8]C[-6])"><Data ss:Type="Number">55.61</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.04</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.61</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:21</Data></Cell>
@@ -330,15 +329,15 @@
     <Cell><Data ss:Type="Number">56.67</Data></Cell>
     <Cell><Data ss:Type="Number">56.77</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[38]C[-6]"><Data ss:Type="String">2017/06/28 10:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.04</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MAX(R[34]C[-6]:R[38]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MIN(R[34]C[-6]:R[38]C[-6])"><Data ss:Type="Number">56.04</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[18]C[-6]"><Data ss:Type="String">2017/06/28 13:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.25</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MAX(R[16]C[-6]:R[18]C[-6])"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MIN(R[16]C[-6]:R[18]C[-6])"><Data ss:Type="Number">56.25</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.69</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.25</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:24</Data></Cell>
@@ -352,15 +351,15 @@
     <Cell><Data ss:Type="Number">56.7</Data></Cell>
     <Cell><Data ss:Type="Number">56.8</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[42]C[-6]"><Data ss:Type="String">2017/06/28 10:20:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.15</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.32</Data></Cell>
     <Cell ss:Formula="=MAX(R[38]C[-6]:R[42]C[-6])"><Data ss:Type="Number">56.32</Data></Cell>
     <Cell ss:Formula="=MIN(R[38]C[-6]:R[42]C[-6])"><Data ss:Type="Number">56.15</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.32</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.15</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[20]C[-6]"><Data ss:Type="String">2017/06/28 13:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.12</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Formula="=MAX(R[18]C[-6]:R[20]C[-6])"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Formula="=MIN(R[18]C[-6]:R[20]C[-6])"><Data ss:Type="Number">56.12</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.29</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.12</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:27</Data></Cell>
@@ -374,15 +373,15 @@
     <Cell><Data ss:Type="Number">56.69</Data></Cell>
     <Cell><Data ss:Type="Number">56.75</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[46]C[-6]"><Data ss:Type="String">2017/06/28 10:25:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MAX(R[42]C[-6]:R[46]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MIN(R[42]C[-6]:R[46]C[-6])"><Data ss:Type="Number">56.2</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[22]C[-6]"><Data ss:Type="String">2017/06/28 13:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MAX(R[20]C[-6]:R[22]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MIN(R[20]C[-6]:R[22]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:30</Data></Cell>
@@ -396,15 +395,15 @@
     <Cell><Data ss:Type="Number">56.74</Data></Cell>
     <Cell><Data ss:Type="Number">56.78</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[50]C[-6]"><Data ss:Type="String">2017/06/28 10:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.25</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MAX(R[46]C[-6]:R[50]C[-6])"><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Formula="=MIN(R[46]C[-6]:R[50]C[-6])"><Data ss:Type="Number">56.25</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.42</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.25</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[24]C[-6]"><Data ss:Type="String">2017/06/28 14:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.07</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MAX(R[22]C[-6]:R[24]C[-6])"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MIN(R[22]C[-6]:R[24]C[-6])"><Data ss:Type="Number">56.07</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.28</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.07</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:33</Data></Cell>
@@ -418,15 +417,15 @@
     <Cell><Data ss:Type="Number">56.6</Data></Cell>
     <Cell><Data ss:Type="Number">56.73</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[54]C[-6]"><Data ss:Type="String">2017/06/28 10:35:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.29</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.37</Data></Cell>
     <Cell ss:Formula="=MAX(R[50]C[-6]:R[54]C[-6])"><Data ss:Type="Number">56.37</Data></Cell>
     <Cell ss:Formula="=MIN(R[50]C[-6]:R[54]C[-6])"><Data ss:Type="Number">56.29</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.37</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[26]C[-6]"><Data ss:Type="String">2017/06/28 14:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MAX(R[24]C[-6]:R[26]C[-6])"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MIN(R[24]C[-6]:R[26]C[-6])"><Data ss:Type="Number">56</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.27</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:36</Data></Cell>
@@ -440,15 +439,15 @@
     <Cell><Data ss:Type="Number">56.62</Data></Cell>
     <Cell><Data ss:Type="Number">56.72</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[58]C[-6]"><Data ss:Type="String">2017/06/28 10:40:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MAX(R[54]C[-6]:R[58]C[-6])"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MIN(R[54]C[-6]:R[58]C[-6])"><Data ss:Type="Number">56.3</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.41</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[28]C[-6]"><Data ss:Type="String">2017/06/28 14:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MAX(R[26]C[-6]:R[28]C[-6])"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MIN(R[26]C[-6]:R[28]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.1</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:39</Data></Cell>
@@ -462,15 +461,15 @@
     <Cell><Data ss:Type="Number">56.62</Data></Cell>
     <Cell><Data ss:Type="Number">56.7</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[62]C[-6]"><Data ss:Type="String">2017/06/28 10:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.34</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MAX(R[58]C[-6]:R[62]C[-6])"><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Formula="=MIN(R[58]C[-6]:R[62]C[-6])"><Data ss:Type="Number">56.34</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.41</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.34</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[30]C[-6]"><Data ss:Type="String">2017/06/28 14:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.61</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MAX(R[28]C[-6]:R[30]C[-6])"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MIN(R[28]C[-6]:R[30]C[-6])"><Data ss:Type="Number">55.61</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.04</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.61</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:42</Data></Cell>
@@ -484,15 +483,15 @@
     <Cell><Data ss:Type="Number">56.51</Data></Cell>
     <Cell><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[66]C[-6]"><Data ss:Type="String">2017/06/28 10:50:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MAX(R[62]C[-6]:R[66]C[-6])"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MIN(R[62]C[-6]:R[66]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="19" ss:Formula="=R[32]C[-6]"><Data ss:Type="String">2017/06/28 15:00:03</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.63</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.72</Data></Cell>
     <Cell ss:Formula="=MAX(R[30]C[-6]:R[32]C[-6])"><Data ss:Type="Number">55.72</Data></Cell>
     <Cell ss:Formula="=MIN(R[30]C[-6]:R[32]C[-6])"><Data ss:Type="Number">55.63</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.72</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.63</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:45</Data></Cell>
@@ -506,10 +505,10 @@
     <Cell><Data ss:Type="Number">56.42</Data></Cell>
     <Cell><Data ss:Type="Number">56.54</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[70]C[-6]"><Data ss:Type="String">2017/06/28 10:55:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.14</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Formula="=MAX(R[66]C[-6]:R[70]C[-6])"><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Formula="=MIN(R[66]C[-6]:R[70]C[-6])"><Data ss:Type="Number">56.14</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.14</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:48</Data></Cell>
@@ -523,10 +522,10 @@
     <Cell><Data ss:Type="Number">56.31</Data></Cell>
     <Cell><Data ss:Type="Number">56.42</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[74]C[-6]"><Data ss:Type="String">2017/06/28 11:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.19</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Formula="=MAX(R[70]C[-6]:R[74]C[-6])"><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Formula="=MIN(R[70]C[-6]:R[74]C[-6])"><Data ss:Type="Number">56.19</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.19</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:51</Data></Cell>
@@ -540,10 +539,10 @@
     <Cell><Data ss:Type="Number">56.2</Data></Cell>
     <Cell><Data ss:Type="Number">56.31</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[78]C[-6]"><Data ss:Type="String">2017/06/28 11:05:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.17</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MAX(R[74]C[-6]:R[78]C[-6])"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MIN(R[74]C[-6]:R[78]C[-6])"><Data ss:Type="Number">56.17</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.28</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.17</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:54</Data></Cell>
@@ -557,10 +556,10 @@
     <Cell><Data ss:Type="Number">56.19</Data></Cell>
     <Cell><Data ss:Type="Number">56.3</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[82]C[-6]"><Data ss:Type="String">2017/06/28 11:10:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MAX(R[78]C[-6]:R[82]C[-6])"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MIN(R[78]C[-6]:R[82]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:30:57</Data></Cell>
@@ -574,10 +573,10 @@
     <Cell><Data ss:Type="Number">56.29</Data></Cell>
     <Cell><Data ss:Type="Number">56.4</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[86]C[-6]"><Data ss:Type="String">2017/06/28 11:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MAX(R[82]C[-6]:R[86]C[-6])"><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Formula="=MIN(R[82]C[-6]:R[86]C[-6])"><Data ss:Type="Number">56.2</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.35</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.2</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:00</Data></Cell>
@@ -591,10 +590,10 @@
     <Cell><Data ss:Type="Number">56.4</Data></Cell>
     <Cell><Data ss:Type="Number">56.46</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[90]C[-6]"><Data ss:Type="String">2017/06/28 11:20:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.34</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.44</Data></Cell>
     <Cell ss:Formula="=MAX(R[86]C[-6]:R[90]C[-6])"><Data ss:Type="Number">56.44</Data></Cell>
     <Cell ss:Formula="=MIN(R[86]C[-6]:R[90]C[-6])"><Data ss:Type="Number">56.34</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.44</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.34</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:03</Data></Cell>
@@ -608,10 +607,10 @@
     <Cell><Data ss:Type="Number">56.37</Data></Cell>
     <Cell><Data ss:Type="Number">56.44</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[94]C[-6]"><Data ss:Type="String">2017/06/28 11:25:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.36</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.48</Data></Cell>
     <Cell ss:Formula="=MAX(R[90]C[-6]:R[94]C[-6])"><Data ss:Type="Number">56.48</Data></Cell>
     <Cell ss:Formula="=MIN(R[90]C[-6]:R[94]C[-6])"><Data ss:Type="Number">56.36</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.48</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.36</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:06</Data></Cell>
@@ -625,10 +624,10 @@
     <Cell><Data ss:Type="Number">56.3</Data></Cell>
     <Cell><Data ss:Type="Number">56.41</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[98]C[-6]"><Data ss:Type="String">2017/06/28 11:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.45</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MAX(R[94]C[-6]:R[98]C[-6])"><Data ss:Type="Number">56.64</Data></Cell>
     <Cell ss:Formula="=MIN(R[94]C[-6]:R[98]C[-6])"><Data ss:Type="Number">56.45</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.64</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.45</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:09</Data></Cell>
@@ -642,10 +641,10 @@
     <Cell><Data ss:Type="Number">56.29</Data></Cell>
     <Cell><Data ss:Type="Number">56.33</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[103]C[-6]"><Data ss:Type="String">2017/06/28 13:05:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.32</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MAX(R[98]C[-6]:R[103]C[-6])"><Data ss:Type="Number">56.69</Data></Cell>
     <Cell ss:Formula="=MIN(R[98]C[-6]:R[103]C[-6])"><Data ss:Type="Number">56.32</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.69</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.32</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:12</Data></Cell>
@@ -659,10 +658,10 @@
     <Cell><Data ss:Type="Number">56.33</Data></Cell>
     <Cell><Data ss:Type="Number">56.38</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[107]C[-6]"><Data ss:Type="String">2017/06/28 13:10:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.34</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.4</Data></Cell>
     <Cell ss:Formula="=MAX(R[103]C[-6]:R[107]C[-6])"><Data ss:Type="Number">56.4</Data></Cell>
     <Cell ss:Formula="=MIN(R[103]C[-6]:R[107]C[-6])"><Data ss:Type="Number">56.34</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.4</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.34</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:15</Data></Cell>
@@ -676,10 +675,10 @@
     <Cell><Data ss:Type="Number">56.31</Data></Cell>
     <Cell><Data ss:Type="Number">56.36</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[111]C[-6]"><Data ss:Type="String">2017/06/28 13:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.25</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.34</Data></Cell>
     <Cell ss:Formula="=MAX(R[107]C[-6]:R[111]C[-6])"><Data ss:Type="Number">56.34</Data></Cell>
     <Cell ss:Formula="=MIN(R[107]C[-6]:R[111]C[-6])"><Data ss:Type="Number">56.25</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.34</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.25</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:18</Data></Cell>
@@ -693,10 +692,10 @@
     <Cell><Data ss:Type="Number">56.2</Data></Cell>
     <Cell><Data ss:Type="Number">56.35</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[115]C[-6]"><Data ss:Type="String">2017/06/28 13:20:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.12</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Formula="=MAX(R[111]C[-6]:R[115]C[-6])"><Data ss:Type="Number">56.29</Data></Cell>
     <Cell ss:Formula="=MIN(R[111]C[-6]:R[115]C[-6])"><Data ss:Type="Number">56.12</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.29</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.12</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:21</Data></Cell>
@@ -710,10 +709,10 @@
     <Cell><Data ss:Type="Number">56.18</Data></Cell>
     <Cell><Data ss:Type="Number">56.21</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[119]C[-6]"><Data ss:Type="String">2017/06/28 13:25:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.12</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MAX(R[115]C[-6]:R[119]C[-6])"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MIN(R[115]C[-6]:R[119]C[-6])"><Data ss:Type="Number">56.12</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.12</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:24</Data></Cell>
@@ -727,10 +726,10 @@
     <Cell><Data ss:Type="Number">56.14</Data></Cell>
     <Cell><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[123]C[-6]"><Data ss:Type="String">2017/06/28 13:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.16</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MAX(R[119]C[-6]:R[123]C[-6])"><Data ss:Type="Number">56.2</Data></Cell>
     <Cell ss:Formula="=MIN(R[119]C[-6]:R[123]C[-6])"><Data ss:Type="Number">56.16</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.16</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:27</Data></Cell>
@@ -744,10 +743,10 @@
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell><Data ss:Type="Number">56.14</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[127]C[-6]"><Data ss:Type="String">2017/06/28 13:35:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.05</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.15</Data></Cell>
     <Cell ss:Formula="=MAX(R[123]C[-6]:R[127]C[-6])"><Data ss:Type="Number">56.15</Data></Cell>
     <Cell ss:Formula="=MIN(R[123]C[-6]:R[127]C[-6])"><Data ss:Type="Number">56.05</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.15</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.05</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:30</Data></Cell>
@@ -761,10 +760,10 @@
     <Cell><Data ss:Type="Number">55.92</Data></Cell>
     <Cell><Data ss:Type="Number">56.01</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[131]C[-6]"><Data ss:Type="String">2017/06/28 13:40:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.09</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.17</Data></Cell>
     <Cell ss:Formula="=MAX(R[127]C[-6]:R[131]C[-6])"><Data ss:Type="Number">56.17</Data></Cell>
     <Cell ss:Formula="=MIN(R[127]C[-6]:R[131]C[-6])"><Data ss:Type="Number">56.09</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.17</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.09</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:33</Data></Cell>
@@ -778,10 +777,10 @@
     <Cell><Data ss:Type="Number">55.92</Data></Cell>
     <Cell><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[135]C[-6]"><Data ss:Type="String">2017/06/28 13:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.09</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MAX(R[131]C[-6]:R[135]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Formula="=MIN(R[131]C[-6]:R[135]C[-6])"><Data ss:Type="Number">56.09</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.09</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:36</Data></Cell>
@@ -795,10 +794,10 @@
     <Cell><Data ss:Type="Number">56.03</Data></Cell>
     <Cell><Data ss:Type="Number">56.12</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[139]C[-6]"><Data ss:Type="String">2017/06/28 13:50:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.07</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MAX(R[135]C[-6]:R[139]C[-6])"><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Formula="=MIN(R[135]C[-6]:R[139]C[-6])"><Data ss:Type="Number">56.07</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.13</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.07</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:39</Data></Cell>
@@ -812,10 +811,10 @@
     <Cell><Data ss:Type="Number">55.93</Data></Cell>
     <Cell><Data ss:Type="Number">56.05</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[143]C[-6]"><Data ss:Type="String">2017/06/28 13:55:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.08</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.21</Data></Cell>
     <Cell ss:Formula="=MAX(R[139]C[-6]:R[143]C[-6])"><Data ss:Type="Number">56.21</Data></Cell>
     <Cell ss:Formula="=MIN(R[139]C[-6]:R[143]C[-6])"><Data ss:Type="Number">56.08</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.21</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.08</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:42</Data></Cell>
@@ -829,10 +828,10 @@
     <Cell><Data ss:Type="Number">55.9</Data></Cell>
     <Cell><Data ss:Type="Number">55.95</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[147]C[-6]"><Data ss:Type="String">2017/06/28 14:00:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MAX(R[143]C[-6]:R[147]C[-6])"><Data ss:Type="Number">56.28</Data></Cell>
     <Cell ss:Formula="=MIN(R[143]C[-6]:R[147]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.28</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.18</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:45</Data></Cell>
@@ -846,10 +845,10 @@
     <Cell><Data ss:Type="Number">55.91</Data></Cell>
     <Cell><Data ss:Type="Number">56</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[151]C[-6]"><Data ss:Type="String">2017/06/28 14:05:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.14</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.22</Data></Cell>
     <Cell ss:Formula="=MAX(R[147]C[-6]:R[151]C[-6])"><Data ss:Type="Number">56.22</Data></Cell>
     <Cell ss:Formula="=MIN(R[147]C[-6]:R[151]C[-6])"><Data ss:Type="Number">56.14</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.22</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.14</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:48</Data></Cell>
@@ -863,10 +862,10 @@
     <Cell><Data ss:Type="Number">55.99</Data></Cell>
     <Cell><Data ss:Type="Number">56.06</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[155]C[-6]"><Data ss:Type="String">2017/06/28 14:10:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.18</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MAX(R[151]C[-6]:R[155]C[-6])"><Data ss:Type="Number">56.27</Data></Cell>
     <Cell ss:Formula="=MIN(R[151]C[-6]:R[155]C[-6])"><Data ss:Type="Number">56.18</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.27</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.18</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:51</Data></Cell>
@@ -880,10 +879,10 @@
     <Cell><Data ss:Type="Number">56.03</Data></Cell>
     <Cell><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[159]C[-6]"><Data ss:Type="String">2017/06/28 14:15:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.22</Data></Cell>
     <Cell ss:Formula="=MAX(R[155]C[-6]:R[159]C[-6])"><Data ss:Type="Number">56.22</Data></Cell>
     <Cell ss:Formula="=MIN(R[155]C[-6]:R[159]C[-6])"><Data ss:Type="Number">56</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.22</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:54</Data></Cell>
@@ -897,10 +896,10 @@
     <Cell><Data ss:Type="Number">56.05</Data></Cell>
     <Cell><Data ss:Type="Number">56.09</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[163]C[-6]"><Data ss:Type="String">2017/06/28 14:20:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">56.01</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MAX(R[159]C[-6]:R[163]C[-6])"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MIN(R[159]C[-6]:R[163]C[-6])"><Data ss:Type="Number">56.01</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.1</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">56.01</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:31:57</Data></Cell>
@@ -914,10 +913,10 @@
     <Cell><Data ss:Type="Number">56.07</Data></Cell>
     <Cell><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[167]C[-6]"><Data ss:Type="String">2017/06/28 14:25:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.93</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MAX(R[163]C[-6]:R[167]C[-6])"><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Formula="=MIN(R[163]C[-6]:R[167]C[-6])"><Data ss:Type="Number">55.93</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.1</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.93</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:00</Data></Cell>
@@ -931,10 +930,10 @@
     <Cell><Data ss:Type="Number">56.1</Data></Cell>
     <Cell><Data ss:Type="Number">56.13</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[171]C[-6]"><Data ss:Type="String">2017/06/28 14:30:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56</Data></Cell>
     <Cell ss:Formula="=MAX(R[167]C[-6]:R[171]C[-6])"><Data ss:Type="Number">56</Data></Cell>
     <Cell ss:Formula="=MIN(R[167]C[-6]:R[171]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:03</Data></Cell>
@@ -948,10 +947,10 @@
     <Cell><Data ss:Type="Number">56.11</Data></Cell>
     <Cell><Data ss:Type="Number">56.18</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[175]C[-6]"><Data ss:Type="String">2017/06/28 14:35:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MAX(R[171]C[-6]:R[175]C[-6])"><Data ss:Type="Number">56.04</Data></Cell>
     <Cell ss:Formula="=MIN(R[171]C[-6]:R[175]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">56.04</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:06</Data></Cell>
@@ -965,10 +964,10 @@
     <Cell><Data ss:Type="Number">56.13</Data></Cell>
     <Cell><Data ss:Type="Number">56.16</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[179]C[-6]"><Data ss:Type="String">2017/06/28 14:40:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.98</Data></Cell>
     <Cell ss:Formula="=MAX(R[175]C[-6]:R[179]C[-6])"><Data ss:Type="Number">55.98</Data></Cell>
     <Cell ss:Formula="=MIN(R[175]C[-6]:R[179]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.98</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.9</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:09</Data></Cell>
@@ -982,10 +981,10 @@
     <Cell><Data ss:Type="Number">56.05</Data></Cell>
     <Cell><Data ss:Type="Number">56.16</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[183]C[-6]"><Data ss:Type="String">2017/06/28 14:45:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.61</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.9</Data></Cell>
     <Cell ss:Formula="=MAX(R[179]C[-6]:R[183]C[-6])"><Data ss:Type="Number">55.9</Data></Cell>
     <Cell ss:Formula="=MIN(R[179]C[-6]:R[183]C[-6])"><Data ss:Type="Number">55.61</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.9</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.61</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:12</Data></Cell>
@@ -999,10 +998,10 @@
     <Cell><Data ss:Type="Number">56.04</Data></Cell>
     <Cell><Data ss:Type="Number">56.1</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[187]C[-6]"><Data ss:Type="String">2017/06/28 14:50:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.64</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.72</Data></Cell>
     <Cell ss:Formula="=MAX(R[183]C[-6]:R[187]C[-6])"><Data ss:Type="Number">55.72</Data></Cell>
     <Cell ss:Formula="=MIN(R[183]C[-6]:R[187]C[-6])"><Data ss:Type="Number">55.64</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.72</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.64</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:15</Data></Cell>
@@ -1016,10 +1015,10 @@
     <Cell><Data ss:Type="Number">56.05</Data></Cell>
     <Cell><Data ss:Type="Number">56.16</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[191]C[-6]"><Data ss:Type="String">2017/06/28 14:55:00</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.63</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.71</Data></Cell>
     <Cell ss:Formula="=MAX(R[187]C[-6]:R[191]C[-6])"><Data ss:Type="Number">55.71</Data></Cell>
     <Cell ss:Formula="=MIN(R[187]C[-6]:R[191]C[-6])"><Data ss:Type="Number">55.63</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.71</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.63</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:18</Data></Cell>
@@ -1033,10 +1032,10 @@
     <Cell><Data ss:Type="Number">56.15</Data></Cell>
     <Cell><Data ss:Type="Number">56.26</Data></Cell>
     <Cell ss:Index="13" ss:Formula="=R[195]C[-6]"><Data ss:Type="String">2017/06/28 15:00:03</Data></Cell>
-    <Cell ss:Formula="=RC[2]"><Data ss:Type="Number">55.64</Data></Cell>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="Number">55.66</Data></Cell>
     <Cell ss:Formula="=MAX(R[191]C[-6]:R[195]C[-6])"><Data ss:Type="Number">55.66</Data></Cell>
     <Cell ss:Formula="=MIN(R[191]C[-6]:R[195]C[-6])"><Data ss:Type="Number">55.64</Data></Cell>
-    <Cell ss:Formula="=RC[-2]"><Data ss:Type="Number">55.66</Data></Cell>
+    <Cell ss:Formula="=RC[-1]"><Data ss:Type="Number">55.64</Data></Cell>
    </Row>
    <Row ss:AutoFitHeight="0">
     <Cell><Data ss:Type="String">2017/06/28 09:32:21</Data></Cell>
@@ -34311,17 +34310,17 @@
     <HorizontalResolution>-4</HorizontalResolution>
     <VerticalResolution>-4</VerticalResolution>
    </Print>
-   <PageLayoutZoom>0</PageLayoutZoom>
    <Selected/>
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveCol>30</ActiveCol>
-     <RangeSelection>R1C31:R5C35</RangeSelection>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>12</ActiveCol>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
    <ProtectScenarios>False</ProtectScenarios>
+   <x:PageLayoutZoom>0</x:PageLayoutZoom>
   </WorksheetOptions>
  </Worksheet>
 </Workbook>
